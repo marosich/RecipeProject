@@ -1,0 +1,117 @@
+/* CURRENTLY IN: styles/main.css */
+html {
+	max-width: 1200px; 
+	margin: 0 auto; 
+}
+a {
+	color: white;
+
+}
+
+.nav-link:hover {
+	color: #CC5500;
+	text-decoration: none;
+}
+
+#nav-active {
+	color: #CC5500;
+}
+
+.top-nav {
+	background-color: #050301;
+	color: white;
+	height: 60px;
+
+}
+
+.nav-content {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.nav-items {
+	float: right;
+	color: white;
+	font-size: 25px;
+	margin-top: 10px;
+	padding-right: 30px;
+	margin-right: 10px;
+}
+
+.nav-link {
+	padding-right: 10px;
+}
+.logo {
+	float: left;
+	font-size: 25px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.logo:hover{
+	color: white;
+	text-decoration: none;
+}
+
+.container {
+	box-sizing: border-box;
+	background-image: url(../assets/counter.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	width: 1200px;
+}
+
+.col-1 {
+	background-color: none;
+	width:33.33%;
+	float: left;
+	height: 100%;
+}
+.col-2 {
+	background-color: none;
+	width: 33.33%;
+	float: left;
+	height: 100%;
+
+}
+
+.col-3 {
+	background-color: none;
+	width: 33.33%;
+	float: left;
+	height: 100%;
+
+}
+
+.text-wrap {
+	margin-top: 33.33%
+}
+
+.family-name {
+	font-family: arial;
+	color: white;
+	font-size: 32px;
+	padding-bottom: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.main-name{
+	font-family: arial;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.footer {
+	background-color: #050301;
+	min-height: 60px;
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
