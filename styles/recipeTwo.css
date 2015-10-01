@@ -1,0 +1,89 @@
+html {
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+a {
+  color: white;
+
+}
+
+.nav-link:hover {
+  color: #CC5500;
+  text-decoration: none;
+}
+
+#nav-active {
+  color: #CC5500;
+}
+
+.top-nav {
+  background-color: #050301;
+  color: white;
+  min-height: 60px;
+
+}
+
+.nav-content {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.nav-items {
+  float: right;
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+  padding-right: 30px;
+  margin-right: 10px;
+}
+
+.nav-link {
+  padding-right: 10px;
+}
+.logo {
+  float: left;
+  font-size: 25px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.logo:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.recipe-wrap {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.col-image {
+  background-color: blue;
+  height: 100%;
+}
+
+.col-content {
+  background-color: red; 
+}
+
+.col-history {
+  background-color: green;
+  height: 100%;
+
+}
+
+
+.footer {
+  background-color: #050301;
+  height: 60px;
+  color: white;
+  font-family: arial;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-left: 20px;
+  float: left;
+  width: 100%;
+}

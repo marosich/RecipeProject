@@ -1,6 +1,6 @@
 /* CURRENTLY IN: styles/main.css */
 html {
-	max-width: 1200px; 
+	width: 1200px; 
 	margin: 0 auto; 
 }
 a {
@@ -20,7 +20,7 @@ a {
 .top-nav {
 	background-color: #050301;
 	color: white;
-	height: 60px;
+	min-height: 60px;
 
 }
 
@@ -60,7 +60,7 @@ a {
 	background-image: url(../assets/counter.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 400px;
+	min-height: 400px;
 	width: 1200px;
 }
 
