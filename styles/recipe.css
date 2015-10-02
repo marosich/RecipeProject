@@ -1,5 +1,5 @@
 html {
-  width: 1200px; 
+  max-width: 1200px; 
   margin: 0 auto; 
 }
 a {
@@ -109,13 +109,14 @@ a {
 .history-wrapper {
   margin-top: 20px;
   padding-right: 20px;
-  margin-left: 20px;
+  margin-left: 30px;
   margin-right: 30px;
   min-height: 300px;
   box-sizing: border-box;
-  background-image: url(../assets/italy.jpg);
+  background-image: url(../assets/cuttingboard2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .image-wrap {
@@ -171,6 +172,7 @@ a {
   font-family: arial;
   padding-left: 20px;
   color: black;
+  padding-bottom: 20px;
 }
 
 .footer {
