@@ -143,3 +143,14 @@ a {
 	padding-top: 15px;
 	padding-bottom: 20px;
 }
+
+.col-content__family__link {
+	  font-size: 20px;
+	  font-family: arial;
+	  color: black;
+}
+
+.col-content__family__link:hover {
+	color: #CC5500;
+	text-decoration: none;
+}
