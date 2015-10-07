@@ -4,6 +4,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
     <title >Pumpkin Bread</title>
     <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
+
     <link rel='stylesheet' href='../styles/recipe.css'>
 </head>
 
@@ -12,7 +15,7 @@
 
     <nav class="top-nav">
 
-        <a class="logo"> LOGO GOES HERE </a>
+        <a class="logo"> M and M ReciTree </a>
         <div class="nav-items">
           <a class="nav-link" href="../index.html">Home</a>
           <a class="nav-link" href="../recipemealsort.html">Recipes By Meal</a>
@@ -30,7 +33,11 @@
     <div class="recipe">
       <div class = "col-image">
           <div class="image-wrap">
-            <img class = "col-image__image" src="../assets/pumpkinBread.jpg" alt="HTML5 Icon" style="width: 250px;height:250px;">
+           <div class="image-slider">
+                <div><img class = "col-image__image" src="../assets/pumpkinBread.jpg" alt="HTML5 Icon" style="width: 250px;height:250px;"></div>
+                <div><img class = "col-image__image" src="../assets/pumpkin.jpg" alt="HTML5 Icon" style="width: 250px;height:250px;"></div>
+                <div><img class = "col-image__image" src="../assets/loaf.jpg" alt="HTML5 Icon" style="width: 250px;height:250px;"></div>
+              </div> <!-- close image-slider -->
           </div>
       </div> <!-- col-image close -->
       
@@ -41,15 +48,15 @@
             <li> 3.5 cups of flour </li>
             <li>2 tsps soda </li>
             <li>1 tsp salt </li>
-            <li>½ tsp of baking powder </li>
+            <li>1/2tsp of baking powder </li>
             <li>3 cups of sugar </li>
             <li>1 tsp of cinnamon </li>
             <li>1 tsp of pumpkin pie spice </li>
             <li> 1 cup of cooking oil </li>
             <li> 4 eggs </li>
             <li> 1 16-ounce can of pumpkin </li>
-            <li> ½ cup of chopped walnuts </li>
-            <li> ¼ cup of water </li>
+            <li> 1/2 cup of chopped walnuts </li>
+            <li> 1/4 cup of water </li>
 
           </ul>
         </p>
@@ -82,7 +89,13 @@
        <a class="footer__link nav-link" href="../emailPage.html"> Email Your Recipe </a>
        <a class = "footer__link nav-link" href="../about.html"> About </a>
   </div> <!-- close footer -->
-  
+ 
+ <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
+<script type="text/javascript"src="../javascript/main.js"></script>
+
 </body>
 
 </html>

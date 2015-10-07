@@ -4,7 +4,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
     <title >Spicy Penne Vodka</title>
     <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
-    <link rel='stylesheet' href='styles/recipe.css'>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.css"/>
+    <link rel='stylesheet' href='../styles/recipe.css'>
 </head>
 
 
@@ -12,11 +13,12 @@
 
     <nav class="top-nav">
 
-        <a class="logo"> LOGO GOES HERE </a>
+        <a class="logo"> M and M ReciTree </a>
         <div class="nav-items">
           <a class="nav-link" href="../index.html">Home</a>
-          <a class="nav-link" href="../recipemealsort.html">Meal</a>
+          <a class="nav-link" href="../recipemealsort.html">Recipes By Meal</a>
           <a class="nav-link" href="../recipePage.html">All Recipes</a>
+        </div>
         </div>
     </nav>
 
@@ -30,8 +32,12 @@
     <div class="recipe">
       <div class = "col-image">
           <div class="image-wrap">
-            <img class = "col-image__image" src="../assets/vodka.jpg" alt="HTML5 Icon" style="width: 250px;height:250px;">
-          </div>
+             <div class="image-slider">
+                <div><img class = "col-image__image" src="../assets/vodka.jpg" alt="HTML5 Icon" style="width: 250px;height:250px;"></div>
+                <div><img class = "col-image__image" src="../assets/sauce.jpg" alt="HTML5 Icon" style="width: 250px;height:250px;"></div>
+                <div><img class = "col-image__image" src="../assets/parm.jpg" alt="HTML5 Icon" style="width: 250px;height:250px;"></div>
+              </div> <!-- close image-slider -->
+            </div>
       </div> <!-- col-image close -->
       
       <div class = "col-content">
@@ -71,11 +77,10 @@
       <div class = "col-history">
         <div class="history-wrapper">
         <p class="col-history__headline">
-          Headline Goes Here
+          Spicy Penne Vodka History
         </p>
         <p class = "col-history__copy">
-          History description will go here
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum tortor lorem, id hendrerit quam porttitor eu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi efficitur quam eu ante ultricies vulputate a eget sem. Sed lacus est, volutpat a tristique in, volutpat sit amet justo. Suspendisse efficitur sit amet tellus a consequat. Nam non diam a eros varius gravida. Nunc tempor sit amet libero sed posuere. 
+          Marissa first started cooking this dish a couple years ago, and it quickly became a favorite.  Now this has become a staple in their pasta rotation.
         </p>
       </div>
       </div> <!-- col-empty close -->
@@ -86,7 +91,13 @@
        <a class="footer__link nav-link" href="../emailPage.html"> Email Your Recipe </a>
        <a class = "footer__link nav-link" href="../about.html"> About </a>
   </div> <!-- close footer -->
-  
+ 
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
+<script type="text/javascript"src="../javascript/main.js"></script>
+
 </body>
 
 </html>

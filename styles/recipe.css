@@ -113,7 +113,7 @@ a {
   margin-right: 30px;
   min-height: 300px;
   box-sizing: border-box;
-  background-image: url(../assets/cuttingboard2.jpg);
+  background-color: #CC5500;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -163,7 +163,7 @@ a {
   font-weight: bold;
   padding-top: 20px;
   padding-left: 20px;
-  color: black;
+  color: white;
   text-align: center;
 }
 
@@ -171,7 +171,7 @@ a {
   font-size: 16px;
   font-family: arial;
   padding-left: 20px;
-  color: black;
+  color: white;
   padding-bottom: 20px;
 }
 
@@ -185,3 +185,38 @@ a {
   padding-left: 20px;
 }
 
+button.slick-prev.slick-arrow{
+  background: red;
+  position: relative;
+  top: 155px;
+  left: -20px ;
+  z-index: 9999;
+  background: white;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid #CC5500;
+  border-radius: 12px;
+}
+
+button.slick-next.slick-arrow{
+  background: red;
+  position: relative;
+  top: -131px;
+  left: 240px ;
+  z-index: 9999;
+  background: white;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid #CC5500;
+  border-radius: 12px;
+}
+
+.slick-active {
+  outline: none;
+}

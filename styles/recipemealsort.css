@@ -91,6 +91,8 @@ a {
 	height: 200px;
 	background-color: white;
 	float: left;
+	display: flex;
+
 	
 }
 
@@ -100,16 +102,7 @@ a {
 	height: 150px;
 	margin: 25px 75px;
 }
-.footer {
-	background-color: #050301;
-	min-height: 60px;
-	color: white;
-	font-family: arial;
-	font-size: 16px;
-	padding-top: 20px;
-	padding-left: 20px;
-	width: 100%;
-}
+
 
 .headline {
 	font-weight: bold;
@@ -139,4 +132,16 @@ a {
 .link:hover {
 	color: #CC5500;
 	text-decoration: none;
+}
+
+.footer {
+	background-color: #050301;
+	height: 60px;
+	color: white;
+	font-family: arial;
+	font-size: 16px;
+	padding-top: 20px;
+	padding-left: 20px;
+	width: 1200px;
+	float: left;
 }
